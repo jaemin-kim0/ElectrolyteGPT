@@ -1,4 +1,4 @@
-# ⚡ Electrolyte-GPT
+# Electrolyte-GPT
 
 **Electrolyte-GPT** is a generative deep learning framework for **molecular design of electrolyte solvents and formulations**, supporting both **unconditioned** and **property-conditioned** generation.
 
@@ -6,7 +6,7 @@ The model is designed to assist research in battery electrolytes by learning che
 
 ---
 
-## 🔬 Overview
+## Overview
 
 Electrolyte-GPT enables:
 
@@ -19,7 +19,7 @@ The repository contains scripts for training generative models and sampling new 
 
 ---
 
-## 🧠 Model Capabilities
+## Model Capabilities
 
 - Transformer-based generative architecture  
 - SMILES-based molecular representation  
@@ -28,7 +28,7 @@ The repository contains scripts for training generative models and sampling new 
 
 ---
 
-## 🚀 Training
+## Training
 
 Model training is performed using the provided shell script.
 - bash train.sh
@@ -37,13 +37,20 @@ All training parameters (dataset paths, batch size, learning rate, number of epo
 
 ---
 
-## 🚀 Training
+## Generation
 
-Model training is performed using the provided shell script.
-- bash train.sh
+Molecule and formulation generation is performed using a trained model checkpoint.
+- bash generate.sh
 
-All training parameters (dataset paths, batch size, learning rate, number of epochs, conditioning variables, and checkpoint settings) are defined inside train.sh or its associated configuration files.
+All generated results are written to the outputs/ directory.
 
+Output Contents
+- SMILES strings of generated molecules
+- Multi-component electrolyte formulations
+- Conditioning metadata (e.g., target properties)
+- Generation logs and statistics
+
+The outputs can be further filtered, analyzed, or used for downstream property prediction, simulation, or experimental screening.
 
 
 
