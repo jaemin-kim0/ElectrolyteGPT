@@ -1,4 +1,4 @@
-# Electrolyte-GPT
+# ⚡ Electrolyte-GPT
 
 **Electrolyte-GPT** is a generative deep learning framework for **molecular design of electrolyte solvents and formulations**, supporting both **unconditioned** and **property-conditioned** generation.
 
