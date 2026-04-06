@@ -8,13 +8,10 @@
 
 Typical columns you may see (varies by task):
 
-SMILES / line notation
--smiles for single-molecule generation
--fLine for formulation strings
+-SMILES / line notation
 
-Optional metadata
--model temperature
--conditioning targets (e.g., thresholds for conductivity, oxidative stability, CE)
+-Model temperature
 
-Optional predictions / scores
+-Conditioning targets (e.g., thresholds for conductivity, oxidative stability, CE)
+
 -ML-predicted properties, validity, uniqueness, novelty markers
